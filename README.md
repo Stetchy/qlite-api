@@ -1,4 +1,4 @@
-# QLite API
+# QLite API [![Build Status](https://travis-ci.org/Stetchy/qlite-api.svg?branch=master)](https://travis-ci.org/Stetchy/qlite-api)
 
 This is the repository for the backend portion of QLite, my final year project for university.
 

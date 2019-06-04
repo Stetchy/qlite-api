@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/show")
 @Api(value = "Shows", description = "Endpoint for show management")
+@CrossOrigin(origins = "*")
 public class ShowController {
 
     private ShowService showService;

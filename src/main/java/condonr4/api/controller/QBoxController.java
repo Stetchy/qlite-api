@@ -16,6 +16,7 @@ import java.util.List;
 @RestController
 @Api(value = "QBox", description = "Endpoint for managing QBoxes")
 @RequestMapping(value = "/qbox")
+@CrossOrigin(origins = "*")
 public class QBoxController {
 
     private QBoxService qBoxService;
